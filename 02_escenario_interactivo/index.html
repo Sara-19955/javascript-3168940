@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Mini Juegos - Galería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  <div class="galeria"><!-- VISOR: AQUÍ VAN LOS 3 JUEGOS -->
+<div class="visor">
+
+  <!-- JUEGO 1 --> 
+  <section id="juego1" class="juego escena activo">
+    <div class="fondo1">
+      <img src="assets/animable/basura.webp" alt="basura" class="basura">
+      <img src="assets/animable/Dib.webp" alt="Dib" class="Dib">
+      <img src="assets/animable/gaz.png" alt="gaz" class="gaz">
+      <img src="assets/clickeables/zim 1.png" alt="perro" class="perro">
+      <div class="contador">0</div>
+    </div>
+  </section>
+
+  <!-- JUEGO 2 -->
+  <section id="juego2" class="juego escena">
+    <div class="fondo2">
+      <img src="assets/animable/marceline.png" alt="marceline" class="marceline">
+      <img src="assets/animable/reyhelado.png" alt="reyhelado" class="reyhelado">
+      <img src="assets/animable/pastel.png" alt="pastel" class="pastel">
+      <img src="assets/clickeables/mentita.png" alt="mentita" class="mentita">
+      <div class="cont">0</div>
+    </div>
+  </section>
+
+  <!-- JUEGO 3 -->
+  <section id="juego3" class="juego escena">
+    <div class="fondo3">
+      <img src="assets/animable/señor.png" alt="señor" class="señor">
+      <img src="assets/animable/bomba.png" alt="bomba" class="bomba">
+      <img src="assets/animable/gordo.png" alt="gordo" class="gordo">
+      <img src="assets/clickeables/logo.png" alt="logo" class="logo">
+      <img src="assets/animable/palito.png" alt="palito" class="palito">
+      <img src="assets/animable/triangulo.png" alt="triangulo" class="triangulo">
+      <img src="assets/nube.png" alt="nube" class="nube1 nube">
+      <img src="assets/nube.png" alt="nube" class="nube2 nube">
+      <img src="assets/nube.png" alt="nube" class="nube3 nube">
+      <div class="contador_2">
+        <span class="numero_contador_2">0</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+<!-- FIN DEL VISOR -->
+
+<!-- CONTROLES -->
+<div class="controles">
+  <button class="flecha izquierda">←</button>
+
+  <div class="miniaturas">
+    <div class="mini activo" data-escena="0">
+      <img src="asset/paisaje.jpg" alt="Bosque">
+      <p>Bosque</p>
+    </div>
+    <div class="mini" data-escena="1">
+      <img src="asset/mar.jpg" alt="Playa">
+      <p>Playa</p>
+    </div>
+    <div class="mini" data-escena="2">
+      <img src="asset/ciudad.jpg" alt="Ciudad">
+      <p>Ciudad</p>
+    </div>
+  </div>
+
+  <button class="flecha derecha">→</button>
+</div>
+
+  </div>  <script src="app.js"></script></body>
+</html>

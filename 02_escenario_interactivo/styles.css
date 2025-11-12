@@ -1,0 +1,404 @@
+
+
+.fondo1 {
+   
+    background-image: url(assets/arracacha.jpg);
+    width: 750px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    top: 90px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.basura {
+    position: absolute;
+    width:50px ;
+    height: auto;
+    bottom: 0;
+    left: 20px;
+    animation: basuraG 3s infinite linear alternate;
+}
+
+@keyframes basuraG {
+    0% {
+        transform: scale (0);
+    }
+    100% {
+        transform: scale(5);
+    }   
+} 
+    
+
+
+.Dib{
+ position :absolute;
+width: 100px;
+ height: auto;
+left:300px;
+top: 350px;
+animation: moverDib 4s infinite linear alternate;
+
+
+}
+
+@keyframes moverDib{
+    0% {
+        transform: traslateX(0);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+
+.gaz {
+    position :absolute;
+    width: 80px;
+     height: auto;
+    left: 400px;
+    top: 390px;
+    animation: moverGaz 3s infinite linear alternate;
+}
+
+@keyframes moverGaz {
+    0% {
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform: translateY(-100px);
+
+}
+}
+
+.perro {
+    position :absolute;
+    width: 80px;
+     height: auto;
+    left: 500px;
+    top: 400px;
+    cursor: pointer;
+  
+}
+
+@keyframes Mperro {
+0%{
+    transform: translateY(0) ;
+
+}
+
+50%{
+    transform: translateY(-100px) ;
+
+}
+}
+
+.MoPerro {
+    animation: Mperro 0.5s forwards;
+}
+
+.contador {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 2, 44);
+}
+
+.fondo2 {
+    background-image: url(assets/fondo\ 2.jpg);
+    width: 750px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.pastel {
+    position: absolute;
+    width:50px ;
+    height: auto;
+    bottom: 0;
+    left: 20px;
+    animation: pastelG 3s infinite linear alternate;
+
+}
+
+@keyframes pastelG {
+    0% {
+        transform: scale (0);
+    }
+    100% {
+        transform: scale(5);
+    }
+} 
+    
+
+
+.reyhelado{
+ position :absolute;
+width: 100px;
+ height: auto;
+left:300px;
+top: 350px;
+animation: moverReyHelado 4s infinite linear alternate;
+
+
+}
+
+@keyframes moverReyHelado{
+    0% {
+        transform: traslateX(0);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+
+.marceline {
+    position :absolute;
+    width: 80px;
+     height: auto;
+    left: 400px;
+    top: 390px;
+    animation: moverMarceline 3s infinite linear alternate;
+}
+
+@keyframes moverMarceline {
+    0% {
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform: translateY(-100px);
+
+}
+}
+
+.mentita {
+    position :absolute;
+    width: 80px;
+     height: auto;
+    left: 500px;
+    top: 400px;
+    cursor: pointer;
+  
+}
+
+@keyframes Mmentita {
+0%{
+    transform: translateY(0) ;
+
+}
+
+50%{
+    transform: translateY(-100px) ;
+
+}
+}
+
+.MoMentita {
+    animation: Mmentita 0.5s forwards;
+}
+
+.cont {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.fondo3 {
+background-image: url(assets/fondos/fondo\ 3.jpeg);
+    width: 750px;
+    height: 500px;
+    position: relative;
+    top:250px;
+    margin:auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: hidden;
+
+
+}
+
+
+.señor {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    left: 650px;
+    bottom: 170px;
+animation: movimientoseñor 3s infinite linear alternate;
+}
+
+@keyframes movimientoseñor {
+    0% {
+        transform: translateX(0);
+    }
+  
+    100% {
+        transform: rotate(-10deg) translateX(-10px);
+    }
+
+
+}
+.bomba {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 550px;
+    top: 200px;
+     animation: bomba 3s infinite linear alternate;
+   
+}
+
+
+@keyframes bomba {
+    0% {
+        transform: scale (0);
+    }
+    100% {
+        transform: scale(2);
+    }   
+} 
+
+.gordo {
+    position :absolute;
+    width: 80px;
+     height: auto;
+    left: 80px;
+    bottom: 110px;
+ animation: movimientopajaros 3s infinite linear alternate;
+
+}   
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    bottom: 20px;
+    left: 250px;
+    cursor: pointer;
+    
+}
+.contador_2{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+  width: auto;
+}
+
+
+.palito {
+    position :absolute;
+    width: 200px;
+     height: auto;
+    left: 90px;
+    bottom: 115px;
+    cursor: pointer;
+  
+}
+.logo:hover,
+.palito:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+     filter: drop-shadow(2px 2px 20px rgb(44, 42, 9));
+}
+
+.triangulo {
+    position :absolute;
+    width: 90px;
+     height: auto;
+    left: -9px;
+    bottom: 115px;
+    cursor: pointer;
+    animation: movimientopajaros 3s infinite linear alternate;
+  
+}
+
+
+.nube1 {
+    position :absolute;
+    width: 120px;
+     height: auto;
+    left: 325px;
+    top: 100px;
+    filter: drop-shadow(2px 2px 20px white);
+}
+
+.nube2 {
+    position :absolute;
+    width: 120px;
+     height: auto;
+    left: 500px;
+    top: 150px;
+    filter: drop-shadow(2px 2px 20px white);
+}
+
+.nube3 {
+    position :absolute;
+    width: 120px;
+     height: auto;
+    left: 100px;
+    top: 50px;
+    filter: drop-shadow(2px 2px 20px white);
+    
+}
+
+@keyframes movimientonube {
+    0% {
+        transform: translateX(0);
+    }
+  
+    100% {
+        transform: translateX(700px)};
+        
+
+}
+
+.nube{
+    animation: movimientonube 10s infinite linear;
+}
+
+
+@keyframes movimientopajaros {
+    0% {
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform: translateY(-10px)};
+        
+
+}
