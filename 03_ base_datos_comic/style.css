@@ -1,0 +1,84 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    border: 0;
+}
+
+.principal{
+    background-image: url(assets/cap2.jpg);
+    height: 100vh;  /* Ocupa toda la pantalla */
+    background-size: cover;  /* Para que cubra todo el espacio */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    overflow: hidden;
+    overflow: scroll;
+}
+
+
+
+h1{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size:7vh;
+    -webkit-text-stroke: 2px white;
+    margin: 0 25px;
+}
+
+.sinopsis{
+    margin-top: 20%;
+}
+
+p{
+  /* word-wrap: break-word; evita que palabras largas se salgan del contenedor */
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: aliceblue;
+    margin: 0 25px;
+}
+
+.todas{
+    margin: 20px 25px ;
+}
+
+.cap1{
+    width: 8%;
+    margin: 0px 25px ;
+}
+
+.cap2{
+    width: 8%;
+    margin: 0px 25px ;
+}
+
+.cap3{
+    width: 8%;
+    margin: 0px 25px ;
+}
+
+h2{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    font-size:5vh;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 0.1em;
+
+}
+
+.person{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 21, 21);
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    opacity: 95%;
+}
+
+.personajes{
+    width: 15%;
+    margin: 110px ;
+}
+
