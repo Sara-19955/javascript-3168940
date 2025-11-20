@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    border: 0;
+}
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13, 13, 13);
+    gap: 20px;
+}
+.principal {
+    background-image: url(assets/cap2.jpg);
+    height: 100vh;
+    /* Ocupa toda la pantalla */
+    background-size: cover;
+    /* Para que cubra todo el espacio */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+    overflow: hidden;
+   border-radius: 20px;
+    width: 80%;
+    box-shadow: 5px 5px 15px rgb(220, 209, 209);
+
+}
+
+
+
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size: 7vh;
+    -webkit-text-stroke: 2px white;
+    margin: 0 25px;
+}
+
+.sinopsis {
+    margin-top: 20%;
+}
+
+p {
+    /* word-wrap: break-word; evita que palabras largas se salgan del contenedor */
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: 0 25px;
+}
+
+.todas {
+    margin: 20px 25px;
+}
+
+.cap1 {
+    width: 8%;
+    margin: 0px 25px;
+}
+
+.cap2 {
+    width: 8%;
+    margin: 0px 25px;
+}
+
+.cap3 {
+    width: 8%;
+    margin: 0px 25px;
+}
+
+h2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    font-size: 5vh;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 0.1em;
+
+}
+
+.person {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 21, 21);
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    opacity: 95%;
+}
+
+.personajes {
+    width: 15%;
+    margin: 110px;
+}
+
+.capitulos {
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+    background-color: rgb(75, 21, 21);
+    opacity: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    width: 80%;    box-shadow: 5px 5px 15px rgb(220, 209, 209);
+}
+
+.cards img{
+    display: flex;
+    background-color: rgb(75, 21, 21);
+    opacity: 95%;
+    width:200px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.cards{
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 15px;
+    gap: 20px;
+}
